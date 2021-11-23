@@ -107,6 +107,11 @@ input[type=text] {
     padding: 4px 15px;
     border: none;
     margin-right: 10px;
+    
+}
+
+input[type=text]:hover {
+    cursor: text;
 }
 
 form button {
@@ -119,6 +124,32 @@ form button {
     font-size: 16px;
 }
 
+.icons-grid {
+    background-color: hsl(0, 0%, 90%);
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fully-responsive,.bootstrap,.easy {
+    max-width: 255px;
+    padding: 10px;
+    font-weight: 200;
+    color: rgb(77, 77, 77);
+}
+
+.icons-img {
+    height: 80px;
+    width: 80px;
+}
+
+.icons-grid-title {
+    color: black;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+}
 
 
 
