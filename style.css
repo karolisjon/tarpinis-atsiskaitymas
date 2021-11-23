@@ -140,9 +140,24 @@ form button {
     color: rgb(77, 77, 77);
 }
 
+/*.fully-responsive:hover,.bootstrap:hover,.easy:hover {
+    transform: scale3d(1.1,1.1,1);
+    cursor: pointer;
+} */
+
+.bootstrap-hover {
+    transition: 0.25s;
+}
+
+.bootstrap-hover:hover {
+    transform: scale3d(1.1,1.1,1.1);
+    cursor: pointer;
+}
+
 .icons-img {
     height: 80px;
     width: 80px;
+    transition: 0.3s;
 }
 
 .icons-grid-title {
