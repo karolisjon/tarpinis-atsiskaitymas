@@ -99,20 +99,20 @@ form {
     display: flex;
     justify-content: center;
     height: 45px;
-}
+} 
 
-input[type=text] {
+input[type=email] {
     width: 55%;
     border-radius: 6px;
     padding: 4px 15px;
     border: none;
     margin-right: 10px;
     
-}
+} 
 
-input[type=text]:hover {
+input[type=email]:hover {
     cursor: text;
-}
+} 
 
 form button {
     width: 130px;
@@ -148,7 +148,7 @@ form button {
 } */
 
 .bootstrap-hover {
-    transition: 0.25s;
+    transition: 0.35s;
 }
 
 .bootstrap-hover:hover {
@@ -159,7 +159,7 @@ form button {
 .icons-img {
     height: 80px;
     width: 80px;
-    transition: 0.3s;
+    transition: 0.35s;
 }
 
 .icons-grid-title {
@@ -185,6 +185,7 @@ form button {
 
 .bg-showcase-img {
     width: 50%;
+    flex-shrink: 0;
 }
 
 .bg-showcase-content {
@@ -307,31 +308,77 @@ form button {
 
 .hero-small .content h3 {
     color:white;
-    font-size: 42px;
     text-align: center;
     max-width: 700px;
     width: 100%;
+    font-size: 35px;
 }
 
+.form input {
+    width: 500px;
+    margin-left: 0px;
+    height: 30px;
+    border-radius: 4px;
+    height: 40px;
+    margin-right: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
 
 footer {
     background-color:#f8f9fa;
-    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
+
+.footer-link, .footer-text{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.footer-text {
+   color: rgb(77, 77, 77);
+   font-weight: 200;
+   font-size: 14px;
+}
+
+.footer-link {
+    font-size: 16px;
+    color: #3a8dfe;
+}
+
+span {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.svg-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.35s;
+    
+}
+
+.icons-img, .svg-icon {
+    filter: invert(48%) sepia(35%) saturate(3925%) hue-rotate(197deg) brightness(101%) contrast(99%);
+}
+
+.svg-icon:hover {
+    transform: scale3d(1.1,1.1,1.1);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+
 
 
 
