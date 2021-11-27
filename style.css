@@ -449,3 +449,50 @@ span {
         width: 100%;
     }
 }
+
+
+@media (max-width: 700px) {
+    .feedback-container {
+        padding-left: 0;
+        padding-right: 0;
+        align-content: center;
+        justify-content: center;
+}
+    .feedback h3 {
+        margin-bottom: 40px;
+        margin-top: 40px;
+}
+    .feedback-container {
+        display: flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+    .margaret, .fred, .sarah {
+        flex-direction:column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+}
+    .feedback-img {
+        display: flex;
+        border-radius: 50%;
+        height: 50%;
+        width: 50%;
+        align-content: center;
+        margin-left: 25%;
+}
+    .margaret, .fred, .sarah h3{
+        text-align: center;
+ }
+    .margaret, .fred, .sarah p{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 40px;
+        
+}
