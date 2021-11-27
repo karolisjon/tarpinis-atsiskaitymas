@@ -197,10 +197,10 @@ form button {
 .bg-showcase-text {
     text-align: left;
     color: rgb(77, 77, 77);
-    max-width: 520px;
-    font-size: 16px;
+    max-width: 550px;
+    font-size: 15px;
     font-weight: 200;
-    margin-right: 220px;
+    margin-right: 150px;
 }
 
 .bg-showcase-title {
