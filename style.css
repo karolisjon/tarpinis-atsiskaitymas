@@ -27,7 +27,7 @@ body {
     background-color: #0266d2;
 }
 
-/* Header styles */
+/* Header section */
 
 header {
     position: fixed;
@@ -48,7 +48,7 @@ header .header-title {
     font-weight: 400;
 }
 
-/* Hero section styles */
+/* Hero section */
 
 .hero {
     display: flex;
@@ -132,7 +132,6 @@ form button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 }
 
 .fully-responsive,.bootstrap,.easy {
@@ -141,11 +140,6 @@ form button {
     font-weight: 200;
     color: rgb(77, 77, 77);
 }
-
-/*.fully-responsive:hover,.bootstrap:hover,.easy:hover {
-    transform: scale3d(1.1,1.1,1);
-    cursor: pointer;
-} */
 
 .bootstrap-hover {
     transition: 0.35s;
@@ -200,6 +194,15 @@ form button {
     padding: 100px;
 }
 
+.bg-showcase-text {
+    text-align: left;
+    color: rgb(77, 77, 77);
+    max-width: 520px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 220px;
+}
+
 .bg-showcase-title {
     font-weight: 700;
     color: black;
@@ -207,7 +210,6 @@ form button {
     margin: 0;
     display: flex;
     justify-content: flex-start;
-   
 }
 
 .bg-showcase:nth-child(odd) {
@@ -361,8 +363,7 @@ span {
     height: 30px;
     margin-left: 15px;
     cursor: pointer;
-    transition: 0.35s;
-    
+    transition: 0.35s;  
 }
 
 .icons-img, .svg-icon {
@@ -377,21 +378,6 @@ span {
     width: 50px;
     height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Media queries */
