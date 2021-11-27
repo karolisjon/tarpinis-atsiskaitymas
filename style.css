@@ -457,6 +457,7 @@ span {
         padding-right: 0;
         align-content: center;
         justify-content: center;
+        width: 100%;
 }
     .feedback h3 {
         margin-bottom: 40px;
@@ -464,7 +465,7 @@ span {
 }
     .feedback-container {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-content: center;
         justify-content: center;
         padding-top: 0px;
@@ -496,3 +497,24 @@ span {
         margin-bottom: 40px;
         
 }
+
+@media (max-width: 700px) {
+    nav {
+        display: flex;
+    
+}      
+
+@media (max-width: 700px) {
+    .hero-small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    form input {
+        width: 100%;
+    }
+    form button {
+        width: 100%;
+    }
+}    
