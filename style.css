@@ -102,7 +102,6 @@ form {
 } 
 
 input[type=email] {
-    width: 55%;
     border-radius: 6px;
     padding: 4px 15px;
     border: none;
@@ -192,6 +191,8 @@ form button {
     font-weight: 200;
     margin: 0%;
     padding: 100px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .bg-showcase-text {
@@ -389,9 +390,7 @@ span {
 @media (max-width: 700px) {
     .hero {
         padding: 50px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: block;
     }
 }
 
@@ -399,37 +398,41 @@ span {
     .form {
         display: flex;
         flex-direction: column;
-        align-content: space-around;
-}
-    .form input{
-        width: 100%;
+        max-width: 700px;
+        
+}        
+    form input {
         margin-bottom: 10px;
-        margin-left: 0px;
-        height: 400px;
-       
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        max-width: 700px;
+        
 }
-    .form .button {
-        width: 100%;
-        margin-left: 0px; 
-        text-align: center;
+    form button {
+        display: flex;
+        max-width: 700px;
+        
+    }
+
 }
 
 
 @media (max-width: 700px) {
     .icons-grid {
+        display: flex;
         flex-direction: column;
         padding-top: 110px;
         padding-bottom: 110px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px){
     .bg-showcase:nth-child(odd) {
         width: 100%;
         align-items: center;
         flex-direction: column;
         justify-content: center;
     }
-
     .bg-showcase:nth-child(even) {
         width: 100%;
         align-items: center;
@@ -437,19 +440,23 @@ span {
         text-align: center;
         justify-content: center;
     }
-
     .bg-showcase-content {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        max-height: 500px;
+        font-size: 24px;
+        padding: 25px;
     }
-
+    .bg-showcase-text {
+        margin: 0;
+    }
+    
     .bg-showcase-img {
         width: 100%;
     }
 }
-
 
 @media (max-width: 700px) {
     .feedback-container {
@@ -487,11 +494,15 @@ span {
         width: 50%;
         align-content: center;
         margin-left: 25%;
+        box-sizing: border-box;
 }
-    .margaret, .fred, .sarah h3{
-        text-align: center;
+    .feedback-comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
  }
-    .margaret, .fred, .sarah p{
+
+    .margaret, .fred, .sarah {
         padding-left: 40px;
         padding-right: 40px;
         margin-bottom: 40px;
@@ -501,7 +512,6 @@ span {
 @media (max-width: 700px) {
     nav {
         display: flex;
-    
 }      
 
 @media (max-width: 700px) {
@@ -510,7 +520,6 @@ span {
         flex-direction: column;
         justify-content: center;
     }
-
     form input {
         width: 100%;
     }
@@ -518,3 +527,9 @@ span {
         width: 100%;
     }
 }    
+
+@media footer (max-width: 700px) {
+    footer nav {
+        display: flex;
+    }
+}
